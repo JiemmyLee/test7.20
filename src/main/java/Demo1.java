@@ -72,6 +72,7 @@ public class Demo1 {
         double total = 0;
         for (int i = 0; i < mylist.length; i++) {
             total += mylist[i];
+            System.out.println("");
         }
         System.out.println(total);
         //求最大值
